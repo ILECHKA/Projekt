@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Serial Days Counter</title>
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <ul class="pure-menu-list pure-menu-horizontal">
+        <li class="pure-menu-item">
+          <a href="" class="pure-menu-link">Full List</a>
+        </li>
+        <li class="pure-menu-item">
+          <a href="" class="pure-menu-link">Today's serials</a>
+        </li>
+        <li class="pure-menu-item">
+          <a href="" class="pure-menu-link">Add new to list</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="section section-add">   <!-- Форма Добавляет новый срериал в список! -->                             
+      <form action="" class="pure-form">
+        <fieldset>                                    
+          <legend>Adding a new serial</legend>   
+          <input type="text" placeholder="Title"/>
+          <input type="number" placeholder="Last episode number">
+          <input type="number" placeholder="Number of episodes">
+          <label for="stacked-date">Day of the week</label>
+          <select id="stacked-date">
+              <option>Monday</option>
+              <option>Tueseday</option>
+              <option>Wednesday</option>
+              <option>Thursday</option>
+              <option>Friday</option>
+              <option>Saturday</option>
+              <option>Sunday</option>
+          </select>
+          <button type="submit" class="pure-button pure-button-primary">Add</button>
+        </fieldset>
+      </form>
+    </section>
+    <section class="section section-list">   <!-- Список сериалов и эпизодов + добавление номера эпизода после просмотра -->
+      <table class="pure-table">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Title</th>
+                <th>Last episode watched</th>
+                <th>Current episode</th>
+                <th>Number of episodes</th>
+                <th>Add info</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    </section>
+    <section class="section section-today">   <!-- Список серий на сегодняшний день  -->
+      <div>
+      <h2 class="">Day of the week</h2>
+      <table class="pure-table">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Title</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    </div>
+    </section>
+  </main>
+  <script  type="module src="js/app.js"></script>
+</body>
+</html>
