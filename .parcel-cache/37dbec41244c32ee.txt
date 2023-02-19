@@ -1,6 +1,6 @@
 169
-55C:\Users\dosto\OneDrive\Pulpit\kursy\projekt\.gitignore133212796635117190 0
-57C:\Users\dosto\OneDrive\Pulpit\kursy\projekt\package.json133212808415956355 0
+55C:\Users\dosto\OneDrive\Pulpit\kursy\projekt\.gitignore133212930599725872 0
+57C:\Users\dosto\OneDrive\Pulpit\kursy\projekt\package.json133212810563746554 0
 94C:\Users\dosto\OneDrive\Pulpit\kursy\projekt\node_modules\jquery\src\deferred\exceptionHook.js133212799505622288 0
 62C:\Users\dosto\OneDrive\Pulpit\kursy\projekt\package-lock.json133212799506765631 0
 86C:\Users\dosto\OneDrive\Pulpit\kursy\projekt\node_modules\jquery\src\var\class2type.js133212799505430592 0
